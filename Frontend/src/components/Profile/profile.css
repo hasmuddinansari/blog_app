@@ -1,0 +1,25 @@
+.profile {
+  width: 20rem;
+  height: 20rem;
+}
+
+.drager {
+  width: 1rem;
+  height: 1rem;
+}
+
+.cardprofile {
+  padding: 2rem;
+  width: 27rem;
+  height: 25rem;
+}
+.modals {
+  height: 20rem;
+  width: auto;
+  overflow: auto;
+}
+.newtext {
+  color: green;
+  margin-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,25 @@
+
+.hover-me:hover {
+    border: 1px solid orange;
+    cursor: pointer;
+}
+.sm-text {
+    font-size: 8px;
+}
+.img-resize{
+    width: 30rem;
+    margin-top: 2rem;
+    border:5px solid white;
+    box-shadow: 10px 10px 20px grey;
+    height: auto;
+}
+.img-resize:hover{
+    transition: 0.6s linear;
+    cursor: pointer;
+    transform: rotateZ(1deg);
+}
+.confirm-shadow{
+    box-shadow: 3px 3px 20px grey;
+    height: auto;
+
+}

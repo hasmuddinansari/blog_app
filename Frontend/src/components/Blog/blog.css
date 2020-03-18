@@ -1,0 +1,47 @@
+.singleCard {
+  width: 61rem;
+  height: auto;
+  box-shadow: 2px 0px 10px lightgray;
+  padding: 4rem;
+  border: 1px solid gray;
+  margin-top: -4rem;
+}
+.blog_content{
+  line-height: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.comment_font {
+  font-size: 18px;
+}
+.comment-pic {
+  width:5rem;
+  height:5rem;
+}
+.icon {
+  transform: scale(2);
+}
+
+.extra {
+  border: 1px solid black;
+  padding: 13px;
+  width: auto;
+}
+.extra:hover {
+  cursor: pointer;
+}
+.singleFlex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+.scroll {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  overflow: auto;
+  height: 15rem;
+  padding: 10px;
+  width: auto;
+}
