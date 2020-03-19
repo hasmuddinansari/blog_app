@@ -3,14 +3,14 @@ import React from "react";
 import { connect } from "react-redux";
 
 
-const PrivateRoute = ({ component: Component, ...rest }) => {
+const PrivateRoute = ({ component: Component, Auth, ...rest }) => {
   return (
     <Route
       {...rest}
       render={props => {
         const token = localStorage.getItem("token")
         console.log(token)
-        if (props.isLogged || token !==null) {
+        if (Auth.isLogged || token !== null) {
           return <Component {...props} />;
         } else {
           return (
@@ -28,11 +28,11 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
     />
   );
 };
-const mapStateToProps = state=>{
-    return {
-        Auth:state.Auth,
-        isLogged:state.Auth.isLogged
-    }
+const mapStateToProps = state => {
+  return {
+    Auth: state.Auth,
+    isLogged: state.Auth.isLogged
+  }
 }
 
 export default connect(mapStateToProps)(PrivateRoute)

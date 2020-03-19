@@ -39,13 +39,14 @@ function Dash(props) {
         name={response.name}
         userId={response.id}
         img={response.img}
+        history={props.history}
       />
       <div className="p-3">
         {props.blog !== "" ? (
           <BlogCard blogs={props.blogs.blogs} />
         ) : (
-          <Loader />
-        )}
+            <Loader />
+          )}
       </div>
     </>
   );

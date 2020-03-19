@@ -14,7 +14,7 @@ function Routes(props) {
     return (
         <BrowserRouter>
             <Switch>
-                <PrivateRoute path="/" exact component={Dash} />
+                <Route path="/" exact component={Dash} />
                 <PrivateRoute path="/createBlog" exact component={CreateBlog} />
                 <PrivateRoute path="/blog/:blog_id" exact component={(props) => <SingleBlog {...props} />} />
                 <PrivateRoute path="/profile" exact component={(props) => <Profile {...props} />} />
