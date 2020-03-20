@@ -8,6 +8,24 @@ Blog Application
 4. REDUX
 5. AXIOS
 
+```HOW TO RUN APPLICATION```
+Clone this repos
+paste to this on your terminal
+```git clone https://github.com/hasmuddinansari/blog_app.git```
+
+```Find server.py file root folder. write these command to run server```
+
+```export FLASK_APP=server.py``` 
+```flask run```
+
+next go to Frontend Folder and start the npm.
+
+`npm start`
+
+```Enjoy```
+
+
+
 `User can Write a Blog, can do comments on other's Blogs and also can modified own blogs`
 
 SEE DEMO:
