@@ -1,6 +1,6 @@
 # Blog Application
 
-# Tech Stack
+## Tech Stack
 ```
 1. FLASK
 2. MYSQL
@@ -11,7 +11,7 @@
 
 
 
-# About
+## About
 
 ```
 An application where users can write blogs modify and remove their blogs. 
@@ -21,7 +21,7 @@ Users can do comments on any particular blog and also can change profile picture
 
 
 
-# HOW TO RUN APPLICATION
+## HOW TO RUN APPLICATION
 ```
    1. Clone this repos >> git clone https://github.com/hasmuddinansari/blog_app.git 
    2. Find server.py file root folder. run below commands to run server. 
