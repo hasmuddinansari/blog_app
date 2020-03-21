@@ -14,7 +14,8 @@
 # About
 
 ```
-An application where users can write blogs modify and remove their blogs. Users can do comments on any particular blog and also can change profile pictures.
+An application where users can write blogs modify and remove their blogs. 
+Users can do comments on any particular blog and also can change profile pictures.
 
 ```
 
