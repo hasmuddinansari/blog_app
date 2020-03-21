@@ -1,6 +1,6 @@
-#Blog Application
+# Blog Application
 
-#Tech Stack
+# Tech Stack
 ```
 1. FLASK
 2. MYSQL
@@ -10,13 +10,11 @@
 ```
 
 
-#HOW TO RUN APPLICATION
-```html
-<ul>
-   <li> Clone this repos >> git clone https://github.com/hasmuddinansari/blog_app.git </li>
-   <li> Find server.py file root folder. write these command to run server <ul> <li> export FLASK_APP=server.py </li> 
-      <li> flask run </li>
-    </ul> </li>
-   <li> go to inside <h4>Fronted </h4> Folder. and type in command <h4> npm start </h4> </li>
-</ul>
+# HOW TO RUN APPLICATION
+```
+   1. Clone this repos >> git clone https://github.com/hasmuddinansari/blog_app.git 
+   2. Find server.py file root folder. write these command to run server 
+       1.export FLASK_APP=server.py
+       2.flask run
+   3. go to inside Fronted Folder.and type in command `npm start`
 ```
